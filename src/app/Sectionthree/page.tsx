@@ -4,6 +4,11 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Banner from "./../assets/reseller-banner.png";
 import Navbar from "../components/Navbar";
+import BackButtonIcon from "/public/images/back-button.svg";
+import SectionThreeImg1 from "/public/images/Sectionthree/Sectionthree1.png";
+import SectionThreeImg2 from "/public/images/Sectionthree/Sectionthree2.png";
+import SectionThreeImg3 from "/public/images/Sectionthree/Sectionthree3.png";
+import SectionThreeImg4 from "/public/images/Sectionthree/Sectionthree4.png";
 
 const topics = [
   {
@@ -109,7 +114,7 @@ export default function ResellerLandingPage() {
                 title="Back to Table of Content"
               >
                 <Image
-                  src="/images/back-button.svg"
+                  src={BackButtonIcon}
                   alt="Expand cross-border"
                   width={32}
                   height={32}
@@ -144,8 +149,8 @@ export default function ResellerLandingPage() {
             </h2>
             <div className="mt-8 w-full">
               <Image
-                src="/images/Sectionthree/Sectionthree1.png"
-                alt="Reseller Program Phases"
+                src={SectionThreeImg1}
+                alt="Diagram of Sales Enablement Tools provided to partners"
                 width={800}
                 height={450}
                 className="w-full h-auto rounded-xl border border-gray-100 shadow-sm"
@@ -214,8 +219,8 @@ export default function ResellerLandingPage() {
                   Marketing & Reselling Guidelines
                 </h3>
                 <Image
-                  src="/images/Sectionthree/Sectionthree2.png"
-                  alt="Reseller Program Phases"
+                  src={SectionThreeImg2}
+                  alt="Payoneer Marketing and Reselling Guidelines"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl border border-gray-100 shadow-sm"
@@ -272,15 +277,15 @@ export default function ResellerLandingPage() {
                   how they engage with Payoneer’s products.
                 </p>
                 <Image
-                  src="/images/Sectionthree/Sectionthree3.png"
-                  alt="Reseller Program Phases"
+                  src={SectionThreeImg3}
+                  alt="Customer persona for Payoneer resellers: E-commerce Seller"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl border border-gray-100 shadow-sm"
                 />
                 <Image
-                  src="/images/Sectionthree/Sectionthree4.png"
-                  alt="Reseller Program Phases"
+                  src={SectionThreeImg4}
+                  alt="Customer persona for Payoneer resellers: B2B Service Provider"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl border border-gray-100 shadow-sm"
