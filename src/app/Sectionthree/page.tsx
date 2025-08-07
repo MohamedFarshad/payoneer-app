@@ -109,7 +109,7 @@ export default function ResellerLandingPage() {
                 title="Back to Table of Content"
               >
                 <Image
-                  src="images/back-button.svg"
+                  src="/images/back-button.svg"
                   alt="Expand cross-border"
                   width={32}
                   height={32}
