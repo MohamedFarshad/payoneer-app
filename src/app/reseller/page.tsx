@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Banner from "./../assets/reseller-banner.png";
 import Navbar from "../components/Navbar";
+import ExpanderIcon from "../assets/images/back-button.svg";
 
 const topics = [
   { title: "About Payoneer", slug: "about-payoneer" },
@@ -301,7 +302,7 @@ export default function ResellerLandingPage() {
                 title="Back to Table of Content"
               >
                 <Image
-                  src="/images/back-button.svg"
+                  src={ExpanderIcon}
                   alt="Expand cross-border"
                   width={32}
                   height={32}
